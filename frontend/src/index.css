@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased font-sans;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+/* Custom transitions and premium design effects */
+.animate-progress {
+  transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-panel {
+  @apply bg-white/80 backdrop-blur-md border border-slate-100 shadow-sm;
+}
+
+.premium-gradient {
+  background: linear-gradient(135deg, #0b132b 0%, #1c2541 100%);
+}
+
+.glow-safe {
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.2);
+}
+
+.glow-caution {
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.2);
+}
+
+.glow-risky {
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.2);
+}
+
+/* Custom scrollbars for a premium feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-200 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-300;
+}
