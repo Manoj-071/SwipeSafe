@@ -98,11 +98,12 @@ The app includes a built-in **Demo Panel** (bottom-right corner) with 3 pre-load
 
 ## 👥 Team
 
-- **Team Name:** [Your team name]
-- **Team Leader:** [Name]
-- **Team Members:** [Names]
+- **Team Name:** Quantum Coders
+- **Team Leader:** Manoj B
+- **Team Member:** Lingesh R
+- **Team Member:** Elango D
 - **Track:** Open Innovation
-- **Round 1 Submission:** [Deployed URL here]
+- **Round 1 Submission:** https://swipe-safe.vercel.app/
 
 ---
 
